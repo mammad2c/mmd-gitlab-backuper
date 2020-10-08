@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const clone = require("git-clone");
 const axios = require("axios").default;
 const fs = require("fs-extra");
