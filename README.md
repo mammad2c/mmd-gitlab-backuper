@@ -6,6 +6,10 @@ A command line package to backup your repositories in your local from Gitlab. Be
 
 - node js v10 above
 
+### Tldr:
+
+`npx mmd-gitlab-backuper -t 'YOUR-ACCESS-TOKEN'`
+
 ### How to work:
 
 - grab a Personal Access Token from your gitlab account.
@@ -25,7 +29,8 @@ Click on `Create personal access token` and after that grab your token:
 ![doc2](images/doc2.jpg)
 
 - now run command below in witch directory you want to do backup:
-  `npx mmd-gitlab-backuper -t 'YOUR-ACCESS-TOKEN'`
+
+`npx mmd-gitlab-backuper -t 'YOUR-ACCESS-TOKEN'`
 
 wooow!! that's all. Now your repos will be available in `./repos` directory.
 
