@@ -8,7 +8,7 @@ A command line package to backup your repositories in your local from Gitlab. Be
 
 ### Tldr:
 
-`npx mmd-gitlab-backuper -t 'YOUR-ACCESS-TOKEN'`
+`npx mmd-gitlab-backuper -t 'YOUR-PERSONAL-ACCESS-TOKEN'`
 
 ### How to work:
 
@@ -30,7 +30,7 @@ Click on `Create personal access token` and after that grab your token:
 
 - now run command below in witch directory you want to do backup:
 
-`npx mmd-gitlab-backuper -t 'YOUR-ACCESS-TOKEN'`
+`npx mmd-gitlab-backuper -t 'YOUR-PERSONAL-ACCESS-TOKEN'`
 
 wooow!! that's all. Now your repos will be available in `./repos` directory.
 
@@ -49,4 +49,4 @@ Options:
 
 for example you can change default backup directory like this:
 
-`npx mmd-gitlab-backuper -t 'YOUR-ACCESS-TOKEN' -o './gitlab-repo'`
+`npx mmd-gitlab-backuper -t 'YOUR-PERSONAL-ACCESS-TOKEN' -o './gitlab-repo'`
