@@ -68,7 +68,7 @@ const observer = objChange(
     if (observer.cloned === total && !observer.hasNext) {
       bar.stop();
       console.clear();
-      console.log(chalk.green(`\n ${total} repo(s) has been saved!! \n`));
+      console.log(chalk.green(`\n ${total} repo(s) saved!! \n`));
     }
   }
 );
