@@ -9,7 +9,7 @@ const cliProgress = require("cli-progress");
 const argv = require("yargs");
 
 argv
-  .usage("Save your repo in gitlab")
+  .usage("Backup gitlab repo in local machine")
   .option("token", {
     alias: "t",
     type: "string",
