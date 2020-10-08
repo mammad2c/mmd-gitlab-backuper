@@ -1,13 +1,16 @@
 {
   "name": "mmd-gitlab-backuper",
   "description": "a package to backup from all projects that you have on gitlab",
-  "version": "0.8.0",
+  "version": "0.8.2",
   "main": "index.js",
   "license": "MIT",
   "author": {
     "name": "Mohammad Toosi",
     "email": "mammadtoosi@gmail.com",
     "url": "http://mammad2c.github.io/"
+  },
+  "bin": {
+    "mmd-gitlab-backuper": "index.js"
   },
   "scripts": {
     "start": "node index.js"
