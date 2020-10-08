@@ -1,6 +1,6 @@
 # mmd-gitlab-backuper
 
-A command line package to backup your repositories in your local from Gitlab. Because of U.S Sanctions there is high risk without any backup.
+A command line package to backup your repositories in your local from Gitlab. Because of U.S Sanctions there is high risk without any backup. This script supports for users that run gitlab on their own servers.
 
 ### Requirements:
 
@@ -50,3 +50,8 @@ Options:
 for example you can change default backup directory like this:
 
 `npx mmd-gitlab-backuper -t 'YOUR-PERSONAL-ACCESS-TOKEN' -o './gitlab-repo'`
+
+also if you are running gitlab on your own server you can change `url`:
+`npx mmd-gitlab-backuper -t 'YOUR-PERSONAL-ACCESS-TOKEN' -u 'https://yourdomain.com'`
+
+**NOTE**: `url` should be without `/` at the end.
