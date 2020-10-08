@@ -1,7 +1,7 @@
 {
   "name": "mmd-gitlab-backuper",
   "description": "a package to backup from all projects that you have on gitlab",
-  "version": "0.8.2",
+  "version": "0.8.3",
   "main": "index.js",
   "license": "MIT",
   "author": {

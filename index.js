@@ -7,7 +7,6 @@ const cliProgress = require("cli-progress");
 const argv = require("yargs");
 
 argv
-  .scriptName("mmd-gitlab-backuper")
   .usage("Save your repo in gitlab")
   .option("token", {
     alias: "t",
