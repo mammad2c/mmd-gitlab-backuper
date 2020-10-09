@@ -57,6 +57,8 @@ also if you are running gitlab on your own server you can change `url`:
 
 **NOTE**: `url` should be without `/` at the end.
 
+---
+
 ### Gitlab compatibility:
 
 This script relay on Gitlab API V4. So if your self hosted Gitlab server is outdated, you should update it to use this script.
