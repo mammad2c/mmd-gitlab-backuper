@@ -1,7 +1,7 @@
 {
   "name": "mmd-gitlab-backuper",
   "description": "a package to backup from all projects that you have on gitlab",
-  "version": "1.5.1",
+  "version": "2.0.2",
   "main": "lib/index.js",
   "license": "MIT",
   "author": {
@@ -21,8 +21,7 @@
     "chalk": "^4.1.0",
     "cli-progress": "^3.8.2",
     "fs-extra": "^9.0.1",
-    "git-clone": "^0.1.0",
-    "on-change": "^2.1.3",
+    "shelljs": "^0.8.4",
     "yargs": "^16.0.3"
   },
   "repository": {
@@ -31,7 +30,7 @@
   },
   "devDependencies": {
     "@types/jest": "^26.0.14",
-    "eslint": "^7.10.0",
+    "eslint": "^7.11.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-config-prettier": "^6.12.0",
     "eslint-plugin-import": "^2.22.1",
