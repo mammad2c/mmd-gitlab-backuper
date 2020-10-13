@@ -10,6 +10,8 @@ A command line package to backup your repositories in your local from Gitlab. Be
 
 `npx mmd-gitlab-backuper -t 'YOUR-PERSONAL-ACCESS-TOKEN'`
 
+**NOTE**: minimum permission required to download repo is `reporter`. you are not allowed to download repo by `guest` permission. you can see permission documents here: [https://docs.gitlab.com/ee/api/members.html](https://docs.gitlab.com/ee/api/members.html)
+
 ### How to work:
 
 - grab a Personal Access Token from your gitlab account.
