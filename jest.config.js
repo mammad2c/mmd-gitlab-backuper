@@ -151,9 +151,9 @@ module.exports = {
 
   // An array of regexp pattern strings that are matched against all test paths, matched tests are skipped
   testPathIgnorePatterns: [
-    "./node_modules/",
-    "./repos/",
-    "./images/",
+    "<rootDir>/node_modules",
+    "<rootDir>/repos",
+    "<rootDir>/images",
     "<rootDir>/__tests__/setupTests.js",
   ],
 

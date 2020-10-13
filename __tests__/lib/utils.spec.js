@@ -8,8 +8,8 @@ const utils = new Utils({
   observer: global.OBSERVER,
 });
 
-describe("utils spec", () => {
-  it("should render correctly repo url: ", () => {
+describe("utils", () => {
+  it("should generate repo url correctly", () => {
     const repoUrl = "https://gitlab.com/test-group1/test1.git";
     const expectedUrl = `https://oauth2:${global.TOKEN}@gitlab.com/test-group1/test1.git`;
 
