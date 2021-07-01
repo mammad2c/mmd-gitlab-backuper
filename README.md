@@ -18,7 +18,7 @@ A command line package to backup your repositories in your local from Gitlab. Be
 
 Login on your gitlab account and click on your avatar on top right. Click on `Settings` and from the left sidebar click on `Access Tokens`:
 
-Full url for gitlab.com: [https://gitlab.com/profile/personal_access_tokens](https://gitlab.com/profile/personal_access_tokens)
+Full url for gitlab.com: [https://gitlab.com/-/profile/personal_access_tokens](https://gitlab.com/profile/personal_access_tokens)
 
 Please tik the fields like in the picture
 
